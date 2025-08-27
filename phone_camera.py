@@ -14,9 +14,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 # IP Camera Details
 username = "Mukilan"
-password = "2005"
-ip_address = "172.17.8.58"
-port = "8080"
+password = "your password"
+ip_address = "YOUR IP ADDRESS"
+port = "your port address"
 video_url = f"http://{username}:{password}@{ip_address}:{port}/video"
 
 class SignLanguageRecognizer:
@@ -168,3 +168,4 @@ class SignLanguageRecognizer:
 if __name__ == "__main__":
     recognizer = SignLanguageRecognizer()
     recognizer.run()
+
